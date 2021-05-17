@@ -1,0 +1,48 @@
+.chckbox {
+  position: relative;
+  &--checked {
+    .chckbox {
+      &__text {
+        color: $white;
+      }
+      &__box {
+        border-color: $greylight;
+      }
+    }
+  }
+
+  &__label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  &__input {
+    display: none;
+    &:checked + .chckbox {
+      &__box {
+        background-image: url('~assets/icons/checked.svg');
+      }
+    }
+  }
+
+  &__box {
+    border: 1px solid #2E3338;
+    border-radius: 2px;
+    width: 14px;
+    height: 14px;
+    display: block;
+    flex: 0 0 auto;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    transition: all .3s;
+  }
+
+  &__text {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    font-weight: 600;
+    margin-left: 10px;
+    color: $greylight;
+  }
+}

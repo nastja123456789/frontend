@@ -1,0 +1,38 @@
+.btn {
+  border: 0;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+  transition: all .3s;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  color: $white;
+  &--center {
+    justify-content: center;
+  }
+
+  &-orange {
+    background: rgba(255, 140, 0, 0.62);
+    color: $white;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+    &:active {
+      box-shadow: none;
+    }
+  }
+
+  &--medium {
+    padding: 0px 16px;
+    height: 50px;
+    width: 185px;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+  }
+
+  &:disabled {
+    opacity: .5;
+    cursor: default;
+  }
+}

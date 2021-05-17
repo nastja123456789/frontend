@@ -1,0 +1,183 @@
+.schedule {
+  padding: 47px 0;
+  &__box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 34px;
+  }
+
+  &__left {
+    display: flex;
+    align-items: center;
+    flex: 1 1 auto;
+  }
+
+  &__btn {
+    margin-right: 30px;
+    flex: 0 0 auto;
+  }
+
+  &__input {
+    flex: 0 0 auto;
+    position: relative;
+    width: 100%;
+    max-width: 630px;
+  }
+
+  &__datepicker {
+    width: 290px;
+    flex: 0 0 auto;
+    position: relative;
+    .mx-datepicker {
+      width: 100%;
+    }
+    .mx-input {
+      height: 50px;
+    }
+  }
+
+  &__clear {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 58px;
+    z-index: 20;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__link {
+    width: 100%;
+    max-width: 700px;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    &-name {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    &-desc {
+      font-size: 1.2rem;
+    }
+  }
+
+  &__item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 22px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__date {
+    flex: 0 0 auto;
+    margin-right: 40px;
+    width: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 140, 0, 0.4);
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    padding: 5px 12px;
+    text-align: center;
+    span {
+      background: $white;
+      height: 30px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 8px 0;
+    }
+  }
+
+  &__lessons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__lesson {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    margin-right: 16px;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    width: 130px;
+  }
+  &__time {
+    height: 40px;
+    background: rgba(230, 230, 230, 0.6);
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+  }
+  &__name {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.87);
+    margin-bottom: 5px;
+  }
+  &__row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &__icon {
+    width: 24px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+  }
+  &__value {
+    &--type {
+      color: rgba(102, 102, 102, 0.73);
+      font-style: italic;
+      font-weight: 500;
+    }
+    span {
+      color: $grey;
+    }
+  }
+}

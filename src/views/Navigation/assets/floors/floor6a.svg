@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="nav-style.css"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" id="svg2" width="582.99982" height="563.92389" viewBox="0 0 582.99982 563.92389">
+        <metadata id="metadata8">
+
+        </metadata>
+        <defs id="defs6">
+
+        </defs>
+
+        <filter id="dropShadow" height="130%">
+          <feGaussianBlur in="SourceAlpha" stdDeviation="3" id="feGaussianBlur7"/>
+
+          <feOffset dx="10" dy="10" result="offsetblur" id="feOffset9"/>
+
+          <feComponentTransfer id="feComponentTransfer13">
+            <feFuncA type="linear" slope="0.5" id="feFuncA11"/>
+
+          </feComponentTransfer>
+          <feMerge id="feMerge19">
+            <feMergeNode id="feMergeNode15"/>
+
+            <feMergeNode id="feMergeNode17"/>
+
+          </feMerge>
+        </filter>
+        <path d="m 582.8133,19 -362,-19 0.1865,172.9238 L 152.8133,174 v 70.9238 H 0 v 319.0001 h 411.9998 c 37.4361,-82.2087 99.0375,-120.9277 171,-141 z" id="path93" class="building" style="fill:#ffffff"/>
+        <path d="M 220.8133,0 220.9998,172.9238 153.0391,174 v 70.9238 L 4.2453,244.9058 C 132.5916,211.9151 217.5814,96.4507 220.8133,0 Z" id="path3853" class="void"/>
+        <g id="str6a" class="room">
+          <path class="stair" id="path4829" d="m 153.1476,537.9091 v 26.0148 H 0.0171 v -26.0148 z"/>
+          <path class="icon" id="stairs-2" d="m 79.657939,540.54711 v 5.2632 h -5.2633 v 5.2632 h -5.2631 v 5.2631 h -5.2631 v 3.9474 h 9.2105 v -5.2631 h 5.2631 v -5.2633 h 5.2631 v -5.2631 h 5.263299 v -3.9474 z"/>
+        </g>
+        <g id="lft6a" class="room">
+          <path class="stair" id="path4827" d="M 368.2,390.8979 H 223.3897 V 278.6553 L 261.3895,240.901 H 368.2 Z"/>
+          <path class="icon" id="lift-0" d="m 282.43949,281.94193 13.3334,13.3334 h -10 v 13.3333 h -6.6667 v -13.3333 h -10 l 13.3333,-13.3334 m 33.3334,26.6667 -13.3334,-13.3333 h 10 v -13.3334 h 6.6667 v 13.3334 h 10 l -13.3333,13.3333 m -33.3334,6.6667 h 33.3334 a 6.6666667,6.6666667 0 0 1 6.6666,6.6666 v 20 a 6.6666667,6.6666667 0 0 1 -6.6666,6.6667 h -33.3334 a 6.6666667,6.6666667 0 0 1 -6.6666,-6.6667 v -20 a 6.6666667,6.6666667 0 0 1 6.6666,-6.6666 m 0,6.6666 v 20 h 33.3334 v -20 z"/>
+        </g>
+        <g id="tlt6a" class="room">
+          <path class="toilet" id="path4825" d="M 368.2,463.0244 V 390.8979 H 223.2884 v 72.1265 z"/>
+          <path d="m 277.86855,453.34254 v -22.0588 h -4.4118 v -16.1765 c 0,-3.2353 2.6471,-5.8823 5.8823,-5.8823 h 8.8236 c 3.2353,0 5.8824,2.647 5.8824,5.8823 v 16.1765 h -4.4118 v 22.0588 z m 36.7646,0 v -17.647 h 8.8236 l -7.4706,-22.4412 c -0.8235,-2.4118 -3.0588,-4.0294 -5.5882,-4.0294 h -0.353 c -2.5294,0 -4.794,1.6176 -5.5882,4.0294 l -7.4706,22.4412 h 8.8235 v 17.647 z m -30.8822,-47.0588 c 3.2646,0 5.8823,-2.6176 5.8823,-5.8824 0,-3.2646 -2.6177,-5.8823 -5.8823,-5.8823 -3.2648,0 -5.8824,2.6177 -5.8824,5.8823 0,3.2648 2.6176,5.8824 5.8824,5.8824 z m 26.4706,0 c 3.2647,0 5.8822,-2.6176 5.8822,-5.8824 0,-3.2646 -2.6175,-5.8823 -5.8822,-5.8823 -3.2648,0 -5.8825,2.6177 -5.8825,5.8823 0,3.2648 2.6177,5.8824 5.8825,5.8824 z" id="wc-8" class="icon"/>
+        </g>
+        <path d="m 464.8409,390.9239 h 47.8494 V 244.9238 h 70.3095 v 178.0001 c -82.4178,22.2916 -140.3909,71.111 -171.2666,141 h -43.5678 v -173 z" id="path44" class="void"/>
+        
+      </svg>
+      

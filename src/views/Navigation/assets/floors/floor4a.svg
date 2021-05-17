@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="nav-style.css"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+ <svg  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" id="svg2" width="582.99988" height="563.92389" viewBox="0 0 582.99988 563.92389">
+        <metadata id="metadata8">
+
+        </metadata>
+        <defs id="defs6">
+          <pattern y="0" x="0" height="6" width="6" patternUnits="userSpaceOnUse" id="EMFhbasepattern"/>
+        </defs>
+
+        <filter id="dropShadow" height="130%">
+          <feGaussianBlur in="SourceAlpha" stdDeviation="3" id="feGaussianBlur7"/>
+
+          <feOffset dx="10" dy="10" result="offsetblur" id="feOffset9"/>
+
+          <feComponentTransfer id="feComponentTransfer13">
+            <feFuncA type="linear" slope="0.5" id="feFuncA11"/>
+
+          </feComponentTransfer>
+          <feMerge id="feMerge19">
+            <feMergeNode id="feMergeNode15"/>
+
+            <feMergeNode id="feMergeNode17"/>
+
+          </feMerge>
+        </filter>
+        <path d="M 582.8135,19.0001 531.3048,16.2966 530.9644,16.2786 220.8135,0 l 0.1864,172.9239 -68.1864,1.0762 v 70.9238 H 0 v 319 h 411.9999 c 37.4362,-82.2087 99.0376,-120.9277 171,-141 z" id="path93" class="building" style="fill:#ffffff"/>
+        <path d="m 220.9307,0.9063 0.0692,172.0176 -68.1864,1.0762 v 70.9238 L 2.9307,244.9059 c 129.2856,-32.9907 214.7446,-147.5493 218,-244 z" id="path3853" class="void"/>
+        <g id="str4a" class="room">
+          <path class="stair" id="path4829" d="m 152.8135,537.9239 v 26 H 0 v -26 z"/>
+          <path class="icon" id="stairs-6" d="m 78.939374,541.50333 v 4.8 h -4.8001 v 4.7999 h -4.7999 v 4.8001 h -4.8 v 3.6 h 8.3999 v -4.8 h 4.8001 v -4.7999 h 4.8 v -4.8001 h 4.8 v -3.6 z"/>
+        </g>
+        <g id="lft4a" class="room">
+          <path class="stair" id="path4827" d="m 362.9999,390.9239 h -141 v -110 l 37,-37 h 104 z"/>
+          <path class="icon" id="lift-0" d="m 277.91606,284.683 13.3334,13.3334 h -10 v 13.3333 h -6.6667 v -13.3333 h -10 l 13.3333,-13.3334 m 33.3334,26.6667 -13.3334,-13.3333 h 10 V 284.683 h 6.6667 v 13.3334 h 10 l -13.3333,13.3333 m -33.3334,6.6667 h 33.3334 a 6.6666667,6.6666667 0 0 1 6.6666,6.6666 v 20 a 6.6666667,6.6666667 0 0 1 -6.6666,6.6667 h -33.3334 a 6.6666667,6.6666667 0 0 1 -6.6666,-6.6667 v -20 a 6.6666667,6.6666667 0 0 1 6.6666,-6.6666 m 0,6.6666 v 20 h 33.3334 v -20 z"/>
+        </g>
+        <g id="tlt4a" class="room">
+          <path class="toilet" id="path4825" d="m 362.9999,467.9239 v -77 h -141 v 77 z"/>
+          <path class="icon" d="m 268.68232,464.29506 v -26.4798 h -5.28 v -19.3599 c 0,-3.92 3.2,-7.0399 7.0399,-7.0399 h 10.64 c 3.8399,0 7.0399,3.1199 7.0399,7.0399 v 19.3599 h -5.2799 v 26.4798 z m 44.1596,0 v -21.1199 h 10.56 l -8.96,-26.9598 c -0.96,-2.8799 -3.68,-4.7999 -6.7199,-4.7999 h -0.4 c -3.04,0 -5.76,1.92 -6.72,4.7999 l -8.9599,26.9598 h 10.5599 v 21.1199 z m -37.1197,-56.4796 c 3.92,0 7.12,-3.12 7.12,-7.04 0,-3.9199 -3.2,-7.0399 -7.12,-7.0399 -3.92,0 -7.0399,3.12 -7.0399,7.0399 0,3.92 3.1199,7.04 7.0399,7.04 z m 31.7598,0 c 3.9199,0 7.1199,-3.12 7.1199,-7.04 0,-3.9199 -3.2,-7.0399 -7.1199,-7.0399 -3.84,0 -7.04,3.12 -7.04,7.0399 0,3.92 3.12,7.04 7.04,7.04 z" id="path418"/>
+        </g>
+        <path d="m 461.9999,390.9239 h 49 v -146 h 72 v 178 c -84.3994,22.2916 -139.3819,71.111 -171,141 h -49 v -173 z" id="path44" class="void"/>
+        
+      </svg>

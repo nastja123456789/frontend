@@ -1,0 +1,39 @@
+// Options
+$enable-rem: false;
+
+// Colors
+$black: #000;
+
+$white: #fff;
+
+$orange: #FF8C00;
+
+$grey: #999999;
+
+// Spacing
+$spacer: 16px;
+// Body
+$body-bg: $white;
+$body-color: $black;
+
+// Links
+$link-color: $black;
+
+// Grid
+$grid-gutter: 60px;
+$grid-columns: 12;
+
+// Fonts
+$font-family: $RT;
+$font-size: 1rem;
+$font-weight: 400;
+$line-height: 1rem;
+
+// Layout
+$col-grid: 12;
+$site-padding: 30px;
+$min-width: 320px;
+$max-width: 1820 + $site-padding * 2;
+
+// Transitions
+$transition: all 0.3s;

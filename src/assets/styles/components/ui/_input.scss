@@ -1,0 +1,35 @@
+.inpt {
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  &__input {
+    width: 100%;
+    background: none;
+    border: none;
+    transition: all .3s;
+
+    &--default {
+      box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+      height: 50px;
+      padding: 0px 19px;
+      font-size: 1.8rem;
+      line-height: 2.1rem;
+    }
+  }
+
+  &.error {
+    .inpt__input {
+      border: 1px solid red;
+    }
+  }
+}
+
+.error {
+  &__text {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    font-size: 1.2rem;
+    color: red;
+  }
+}

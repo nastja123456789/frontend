@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="nav-style.css"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" id="svg68" width="583" height="538" viewBox="0 0 583 538">
+        <metadata id="metadata74">
+
+        </metadata>
+        <defs id="defs72"/>
+
+        <filter id="dropShadow" height="130%">
+          <feGaussianBlur in="SourceAlpha" stdDeviation="3" id="feGaussianBlur6"/>
+
+          <feOffset dx="10" dy="10" result="offsetblur" id="feOffset8"/>
+
+          <feComponentTransfer id="feComponentTransfer12">
+            <feFuncA type="linear" slope="0.5" id="feFuncA10"/>
+
+          </feComponentTransfer>
+          <feMerge id="feMerge18">
+            <feMergeNode id="feMergeNode14"/>
+
+            <feMergeNode id="feMergeNode16"/>
+
+          </feMerge>
+        </filter>
+        <path d="M 583,0 H 221 v 147 h -72 v 72 H 0 v 319 h 412 c 37.4361,-82.2087 99.0375,-120.9277 171,-141 z" id="path93" class="building" style="fill:#ffffff"/>
+        <g id="str2a" class="room">
+          <path class="stair" id="path4829" d="m 149,512 v 26 H 0 v -26 z"/>
+          <path d="m 79.13629,515.42534 v 4.8 h -4.8001 v 4.7999 h -4.7999 v 4.8001 h -4.8 v 3.6 h 8.3999 v -4.8 h 4.8001 v -4.7999 h 4.8 v -4.8001 h 4.8 v -3.6 z" id="stairs-6" class="icon"/>
+        </g>
+        <g id="lft2a" class="room">
+          <path class="stair" id="path200" d="M 363,365 H 222 V 255 l 37,-37 h 104 z"/>
+          <path d="m 278.88163,258.86629 13.3334,13.3334 h -10 v 13.3333 h -6.6667 v -13.3333 h -10 l 13.3333,-13.3334 m 33.3334,26.6667 -13.3334,-13.3333 h 10 v -13.3334 h 6.6667 v 13.3334 h 10 l -13.3333,13.3333 m -33.3334,6.6667 h 33.3334 a 6.6666667,6.6666667 0 0 1 6.6666,6.6666 v 20 a 6.6666667,6.6666667 0 0 1 -6.6666,6.6667 h -33.3334 a 6.6666667,6.6666667 0 0 1 -6.6666,-6.6667 v -20 a 6.6666667,6.6666667 0 0 1 6.6666,-6.6666 m 0,6.6666 v 20 h 33.3334 v -20 z" id="lift-0" class="icon"/>
+        </g>
+        <g id="tlt2a" class="room">
+          <path class="toilet" id="path4825" d="M 363,442 V 365 H 222 v 77 z"/>
+          <path d="m 268.36507,438.5441 v -26.4706 h -5.2941 v -19.4117 c 0,-3.8824 3.1765,-7.0588 7.0588,-7.0588 h 10.5883 c 3.8824,0 7.0588,3.1764 7.0588,7.0588 v 19.4117 h -5.2941 v 26.4706 z m 44.1176,0 v -21.1765 h 10.5883 l -8.9647,-26.9294 c -0.9882,-2.8941 -3.6706,-4.8352 -6.7059,-4.8352 h -0.4236 c -3.0353,0 -5.7528,1.9411 -6.7058,4.8352 l -8.9647,26.9294 h 10.5882 v 21.1765 z m -37.0587,-56.4706 c 3.9175,0 7.0588,-3.1411 7.0588,-7.0588 0,-3.9176 -3.1413,-7.0588 -7.0588,-7.0588 -3.9177,0 -7.0589,3.1412 -7.0589,7.0588 0,3.9177 3.1412,7.0588 7.0589,7.0588 z m 31.7647,0 c 3.9177,0 7.0587,-3.1411 7.0587,-7.0588 0,-3.9176 -3.141,-7.0588 -7.0587,-7.0588 -3.9177,0 -7.0589,3.1412 -7.0589,7.0588 0,3.9177 3.1412,7.0588 7.0589,7.0588 z" id="wc-7" class="icon"/>
+        </g>
+        <path d="m 462,365 h 49 V 219 h 72 V 397 C 498.6005,419.2916 443.6181,468.111 412,538 H 363 V 365 Z" id="path44" class="void"/>
+        
+      </svg>

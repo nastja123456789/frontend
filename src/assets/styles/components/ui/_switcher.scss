@@ -1,0 +1,39 @@
+.switcher {
+  &__box {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+
+  &__input {
+    display: none;
+    &:checked + .switcher__btn {
+      &:after {
+        left: calc(100% - 2px - 11px);
+      }
+    }
+  }
+
+  &__btn {
+    margin-left: 5px;
+    width: 28px;
+    height: 15px;
+    background: linear-gradient(180deg, rgba(0, 144, 78, 0.6) 0%, #00904E 100%);
+    border-radius: 10px;
+    position: relative;
+    &:after {
+      content: '';
+      position: absolute;
+      left: 2px;
+      top: 2px;
+      bottom: 2px;
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      background: $text-title;
+      transition: left .3s;
+    }
+  }
+}
